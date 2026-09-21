@@ -118,10 +118,19 @@ def main():
                 err = str(e)
                 continue
             if rows:
-                got, used = to_frame(rows, key), name
-                break
+                cand = to_frame(rows, key)
+                if len(cand) and (pd.Timestamp.today() - cand.date.max()).days <= 10:
+                    got, used = cand, name
+                    break
+                got, used = got if got is not None else cand, name  # keep as fallback, keep trying
+                err = f"'{name}' stops on {cand.date.max().date()}"
+                continue
             err = "NSE returned no data under any spelling tried"
             time.sleep(1)
+        if got is not None and len(got) and (pd.Timestamp.today() - got.date.max()).days > 10:
+            # a spelling matched an old, retired series that stopped updating
+            err = f"data stops on {got.date.max().date()} (retired series or wrong spelling)"
+            got = None
         if got is not None and len(got):
             frames.append(got)
             status.append((key, used, len(got), got.date.min().date(), got.date.max().date(), "ok", run_at))
