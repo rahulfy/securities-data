@@ -179,7 +179,7 @@ def write_log(entries: list) -> None:
 def fetch_year(year: int) -> None:
     today = dt.date.today()
     frames, log = [], []
-    run_at = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
+    run_at = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M")
     for month in range(1, 13):
         start = max(dt.date(year, month, 1), FIRST_DATE)
         end = dt.date(year, month, calendar.monthrange(year, month)[1])
@@ -216,6 +216,11 @@ def build_master() -> None:
     parts = []
     for f in files:
         d = pd.read_parquet(f)
+        if d.empty:
+            continue  # leftover empty file from an earlier failed run
+        for c in TEXT_COLS:
+            if c not in d.columns:
+                d[c] = None  # older layout without Plan/Option columns
         for c in d.select_dtypes("category"):
             d[c] = d[c].astype("object")
         d = d.sort_values(["scheme_code", "date"])
@@ -233,6 +238,9 @@ def build_master() -> None:
             "isin_growth_or_payout": g["isin_growth_or_payout"].last(),
             "isin_reinvest": g["isin_reinvest"].last(),
         }))
+    if not parts:
+        print("No NAV data yet.")
+        return
     allp = pd.concat(parts).reset_index().sort_values(["scheme_code", "last_nav_date"])
     g = allp.groupby("scheme_code")
     m = pd.DataFrame({
