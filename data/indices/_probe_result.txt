@@ -1,20 +1,36 @@
-Probe run 2026-09-21 14:19 UTC
+Probe run 2026-09-21 14:22 UTC
 Home page visit: HTTP 200, cookies: []
 
 == Step 1: which TRI address works (NIFTY 50, Jan 2024) ==
 https://www.niftyindices.com/BackPage/getTotalReturnIndexString
-   -> {'status': 200, 'secs': 0, 'ctype': 'text/html; charset=utf-8', 'head': '[{"RequestNumber":"TRI63925597181790720400","Index Name":"Nifty 50","Date":"31 Jan 2024","TotalReturnsIndex":"31939.59","NTR_Value":"28933.54"},{"RequestNumber":"TRI63925597181790720400","Index Name":', 'ok': False, 'why': 'not the expected data format (TypeError)'}
+   -> {'status': 200, 'secs': 0, 'ctype': 'text/html; charset=utf-8', 'head': '[{"RequestNumber":"TRI63925597343156992100","Index Name":"Nifty 50","Date":"31 Jan 2024","TotalReturnsIndex":"31939.59","NTR_Value":"28933.54"},{"RequestNumber":"TRI63925597343156992100","Index Name":', 'ok': True, 'rows': 22, 'first': {'RequestNumber': 'TRI63925597343156992100', 'Index Name': 'Nifty 50', 'Date': '31 Jan 2024', 'TotalReturnsIndex': '31939.59', 'NTR_Value': '28933.54'}, 'last': {'RequestNumber': 'TRI63925597343156992100', 'Index Name': 'Nifty 50', 'Date': '01 Jan 2024', 'TotalReturnsIndex': '31949.36', 'NTR_Value': '28945.65'}}
 https://www.niftyindices.com/Backpage.aspx/getTotalReturnIndexString
    -> {'status': 200, 'secs': 1, 'ctype': 'text/html; charset=utf-8', 'head': ' <!DOCTYPE html> <html> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <meta http-equiv="X-UA-Compatible" content="IE=edge"', 'ok': False, 'why': 'not the expected data format (JSONDecodeError)'}
 https://niftyindices.com/Backpage.aspx/getTotalReturnIndexString
-   -> {'status': 200, 'secs': 2, 'ctype': 'text/html; charset=utf-8', 'head': ' <!DOCTYPE html> <html> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <meta http-equiv="X-UA-Compatible" content="IE=edge"', 'ok': False, 'why': 'not the expected data format (JSONDecodeError)'}
+   -> {'status': 200, 'secs': 1, 'ctype': 'text/html; charset=utf-8', 'head': ' <!DOCTYPE html> <html> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <meta http-equiv="X-UA-Compatible" content="IE=edge"', 'ok': False, 'why': 'not the expected data format (JSONDecodeError)'}
 
-WORKING TRI ADDRESS: None
+WORKING TRI ADDRESS: https://www.niftyindices.com/BackPage/getTotalReturnIndexString
 
 == Step 1b: price-index address (backup) ==
 https://www.niftyindices.com/BackPage/getHistoricaldatatabletoString
-   -> ok=False rows=None status=200 why=not the expected data format (TypeError)
+   -> ok=True rows=22 status=200 why=
 https://www.niftyindices.com/Backpage.aspx/getHistoricaldatatabletoString
    -> ok=False rows=None status=200 why=not the expected data format (JSONDecodeError)
 
-No working TRI address. Stopping.
+== Step 2: which index names return data (Jan 2024) ==
+NIFTY 50                                      rows=22 ok=True 
+NIFTY 500                                     rows=22 ok=True 
+NIFTY MIDCAP 150                              rows=22 ok=True 
+NIFTY SMALLCAP 250                            rows=22 ok=True 
+NIFTY MIDCAP150 MOMENTUM 50                   rows=22 ok=True 
+NIFTY MIDCAP150 QUALITY 50                    rows=22 ok=True 
+NIFTY500 VALUE 50                             rows=22 ok=True 
+NIFTY MIDCAP150 VALUE 50                      rows=0 ok=True 
+NIFTY MIDSMALLCAP400 MOMENTUM QUALITY 100     rows=22 ok=True 
+NIFTY200 VALUE 30                             rows=22 ok=True 
+NIFTY LOW VOLATILITY 50                       rows=22 ok=True 
+
+== Step 3: can one request return 20 years? (NIFTY MIDCAP 150) ==
+rows=5148 secs=0 ok=True 
+first row: {'RequestNumber': 'TRI63925597372500830500', 'Index Name': 'Nifty Midcap 150', 'Date': '31 Dec 2025', 'TotalReturnsIndex': '28332.35', 'NTR_Value': '-'}
+last row:  {'RequestNumber': 'TRI63925597372500830500', 'Index Name': 'Nifty Midcap 150', 'Date': '01 Apr 2005', 'TotalReturnsIndex': '1000.00', 'NTR_Value': '-'}
