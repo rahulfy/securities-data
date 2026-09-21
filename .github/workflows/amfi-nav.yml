@@ -36,7 +36,9 @@ jobs:
         env:
           START_YEAR: ${{ github.event.inputs.start_year }}
           END_YEAR: ${{ github.event.inputs.end_year }}
+        shell: bash
         run: |
+          set +e   # don't stop at the first error; we report failure at the end
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           THIS_YEAR=$(date -u +%Y)
@@ -46,12 +48,18 @@ jobs:
             if [ "$(date -u +%m)" = "01" ]; then START_YEAR=$((THIS_YEAR - 1)); fi
           fi
           if [ -z "$END_YEAR" ]; then END_YEAR=$THIS_YEAR; fi
+          FAILED=0
           for Y in $(seq "$START_YEAR" "$END_YEAR"); do
             echo "===== $Y ====="
-            python scripts/amfi_nav.py fetch --year "$Y"
-            python scripts/amfi_nav.py master
+            # Keep going even if a year fails, so the log and partial data still get saved
+            python scripts/amfi_nav.py fetch --year "$Y" 2>&1 | tee -a data-run.log
+            if [ "${PIPESTATUS[0]}" -ne 0 ]; then FAILED=1; fi
+            python scripts/amfi_nav.py master || FAILED=1
+            mkdir -p data/mutual-funds/nav
+            cp data-run.log data/mutual-funds/nav/_last_run_output.txt
             git add data
             git commit -m "AMFI NAV $Y" || echo "No changes for $Y"
             git pull --rebase
             git push
           done
+          exit $FAILED
