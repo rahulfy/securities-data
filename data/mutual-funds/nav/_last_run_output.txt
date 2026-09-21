@@ -1,27 +1,19 @@
-/home/runner/work/securities-data/securities-data/scripts/amfi_nav.py:182: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  run_at = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M")
-  2022-01: downloading 2022-01-01 to 2022-01-31
-    162,203 NAV rows
-  2022-02: downloading 2022-02-01 to 2022-02-28
-    155,311 NAV rows
-  2022-03: downloading 2022-03-01 to 2022-03-31
-    169,794 NAV rows
-  2022-04: downloading 2022-04-01 to 2022-04-30
-    146,744 NAV rows
-  2022-05: downloading 2022-05-01 to 2022-05-31
-    152,470 NAV rows
-  2022-06: downloading 2022-06-01 to 2022-06-30
-    155,841 NAV rows
-  2022-07: downloading 2022-07-01 to 2022-07-31
-    148,964 NAV rows
-  2022-08: downloading 2022-08-01 to 2022-08-31
-    140,474 NAV rows
-  2022-09: downloading 2022-09-01 to 2022-09-30
-    154,775 NAV rows
-  2022-10: downloading 2022-10-01 to 2022-10-31
-    131,397 NAV rows
-  2022-11: downloading 2022-11-01 to 2022-11-30
-    149,797 NAV rows
-  2022-12: downloading 2022-12-01 to 2022-12-31
-    156,919 NAV rows
-Saved data/mutual-funds/nav/nav_2022.parquet (9.8 MB)
+  2006-04: downloading 2006-04-01 to 2006-04-30
+    32,762 NAV rows
+  2006-05: downloading 2006-05-01 to 2006-05-31
+    41,076 NAV rows
+  2006-06: downloading 2006-06-01 to 2006-06-30
+    40,756 NAV rows
+  2006-07: downloading 2006-07-01 to 2006-07-31
+    39,541 NAV rows
+  2006-08: downloading 2006-08-01 to 2006-08-31
+    42,204 NAV rows
+  2006-09: downloading 2006-09-01 to 2006-09-30
+    41,075 NAV rows
+  2006-10: downloading 2006-10-01 to 2006-10-31
+    38,700 NAV rows
+  2006-11: downloading 2006-11-01 to 2006-11-30
+    44,902 NAV rows
+  2006-12: downloading 2006-12-01 to 2006-12-31
+    42,164 NAV rows
+Saved data/mutual-funds/nav/nav_2006.parquet (1.8 MB)
