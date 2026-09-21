@@ -442,3 +442,28 @@ Saved data/mutual-funds/nav/nav_2022.parquet (9.8 MB)
   2023-12: downloading 2023-12-01 to 2023-12-31
     151,194 NAV rows
 Saved data/mutual-funds/nav/nav_2023.parquet (9.6 MB)
+  2024-01: downloading 2024-01-01 to 2024-01-31
+    158,544 NAV rows
+  2024-02: downloading 2024-02-01 to 2024-02-29
+    155,583 NAV rows
+  2024-03: downloading 2024-03-01 to 2024-03-31
+    148,031 NAV rows
+  2024-04: downloading 2024-04-01 to 2024-04-30
+    148,837 NAV rows
+  2024-05: downloading 2024-05-01 to 2024-05-31
+    159,634 NAV rows
+  2024-06: downloading 2024-06-01 to 2024-06-30
+    150,563 NAV rows
+  2024-07: downloading 2024-07-01 to 2024-07-31
+    170,587 NAV rows
+  2024-08: downloading 2024-08-01 to 2024-08-31
+    165,960 NAV rows
+  2024-09: downloading 2024-09-01 to 2024-09-30
+    162,318 NAV rows
+  2024-10: downloading 2024-10-01 to 2024-10-31
+    174,335 NAV rows
+  2024-11: downloading 2024-11-01 to 2024-11-30
+    148,037 NAV rows
+  2024-12: downloading 2024-12-01 to 2024-12-31
+    170,447 NAV rows
+Saved data/mutual-funds/nav/nav_2024.parquet (10.2 MB)
