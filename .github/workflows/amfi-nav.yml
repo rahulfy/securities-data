@@ -2,7 +2,7 @@ name: AMFI NAV download
 
 on:
   schedule:
-    - cron: "30 2 5 * *"   # 5th of every month, 08:00 IST
+    - cron: "30 2 * * 6" # every Saturday, 08:00 IST
   workflow_dispatch:
     inputs:
       start_year:
