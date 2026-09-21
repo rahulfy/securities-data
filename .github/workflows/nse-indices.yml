@@ -1,0 +1,38 @@
+name: NSE index download
+
+on:
+  schedule:
+    - cron: "0 3 * * 6"   # every Saturday, 08:30 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nse-indices
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pandas pyarrow requests
+      - name: Download indices and save
+        shell: bash
+        run: |
+          set +e
+          python scripts/nse_indices.py 2>&1 | tee run.log
+          STATUS=${PIPESTATUS[0]}
+          mkdir -p data/indices
+          cp run.log data/indices/_last_run_output.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/indices
+          git commit -m "NSE indices update" || echo "No changes"
+          git pull --rebase
+          git push
+          exit $STATUS
