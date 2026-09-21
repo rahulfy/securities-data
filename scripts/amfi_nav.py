@@ -33,12 +33,16 @@ LOG_FILE = NAV_DIR / "_fetch_log.csv"
 MASTER_FILE = ROOT / "data" / "mutual-funds" / "scheme_master.csv"
 FIRST_DATE = dt.date(2006, 4, 1)  # AMFI history starts here
 HEADERS = {"User-Agent": "Mozilla/5.0 (securities-data research downloader)"}
+TEXT_COLS = ["scheme_name", "category", "amc", "plan", "option",
+             "isin_growth_or_payout", "isin_reinvest"]
 CATEGORY_RE = re.compile(r"^\s*(open|close|closed|interval)\s*ended\s*schemes", re.I)
 
 
 # ---------------------------------------------------------------- download
-def download(frm: dt.date, to: dt.date, retries: int = 5) -> str:
+def download(frm: dt.date, to: dt.date, mf: int = None, retries: int = 5) -> str:
     params = {"frmdt": frm.strftime("%d-%b-%Y"), "todt": to.strftime("%d-%b-%Y")}
+    if mf is not None:
+        params["mf"] = mf
     last_err = None
     for attempt in range(1, retries + 1):
         try:
@@ -60,16 +64,23 @@ def download(frm: dt.date, to: dt.date, retries: int = 5) -> str:
 def parse(text: str) -> pd.DataFrame:
     """Turn AMFI's semicolon text into a table.
 
+    Columns are located by their header names, because AMFI has changed the
+    layout over time (it added 'Plan' and 'Option' columns, renamed
+    'Scheme Name' to 'NAV Name', and dropped the repurchase/sale prices).
+
     Layout: header line, then blocks of
       'Open Ended Schemes ( Equity Scheme - Large Cap Fund )'   <- category
       'HDFC Mutual Fund'                                         <- fund house
-      '119018;HDFC Large Cap Fund - Growth;INF179...;;812.3;...;01-Apr-2024'
+      data lines separated by ';'
     """
     rows = []
-    category, amc = None, None
+    category, amc, idx = None, None, None
     for raw in io.StringIO(text):
         line = raw.strip()
-        if not line or line.startswith("Scheme Code"):
+        if not line:
+            continue
+        if line.lower().startswith("scheme code"):
+            idx = header_index(line)
             continue
         if ";" not in line:
             if CATEGORY_RE.match(line):
@@ -77,46 +88,82 @@ def parse(text: str) -> pd.DataFrame:
             else:
                 amc = line
             continue
-        parts = [p.strip() for p in line.split(";")]
-        if len(parts) < 8:
+        if idx is None:
             continue
-        code, name, isin1, isin2, nav, _, _, date = parts[:8]
+        parts = [p.strip() for p in line.split(";")]
+        if len(parts) <= max(v for v in idx.values() if v is not None):
+            continue
+        get = lambda k: parts[idx[k]] if idx.get(k) is not None else ""
         try:
-            code = int(code)
-            nav = float(nav.replace(",", ""))
-            date = dt.datetime.strptime(date, "%d-%b-%Y").date()
+            code = int(get("code"))
+            nav = float(get("nav").replace(",", ""))
+            date = dt.datetime.strptime(get("date"), "%d-%b-%Y").date()
         except ValueError:
             continue  # 'N.A.', blanks, malformed lines
         if nav <= 0:
             continue
-        rows.append((code, date, nav, name, category, amc,
-                     isin1 if isin1 not in ("", "-") else None,
-                     isin2 if isin2 not in ("", "-") else None))
-    cols = ["scheme_code", "date", "nav", "scheme_name", "category", "amc",
-            "isin_growth_or_payout", "isin_reinvest"]
-    return pd.DataFrame(rows, columns=cols)
+        clean = lambda v: v if v not in ("", "-") else None
+        rows.append((code, date, nav, get("name"), category, amc,
+                     clean(get("plan")), clean(get("option")),
+                     clean(get("isin1")), clean(get("isin2"))))
+    return pd.DataFrame(rows, columns=["scheme_code", "date", "nav"] + TEXT_COLS)
+
+
+def header_index(header: str) -> dict:
+    names = [h.strip().lower() for h in header.split(";")]
+    def find(*keys):
+        for i, n in enumerate(names):
+            if any(k in n for k in keys):
+                return i
+        return None
+    return {
+        "code": find("scheme code"),
+        "name": find("scheme name", "nav name"),
+        "plan": find("plan"),
+        "option": find("option"),
+        "isin1": find("isin div payout", "isin growth"),
+        "isin2": find("isin div reinvestment"),
+        "nav": find("net asset value"),
+        "date": next((i for i, n in enumerate(names) if n == "date"), None),
+    }
 
 
 # ---------------------------------------------------------------- save
 def save_year(df: pd.DataFrame, year: int) -> Path:
     NAV_DIR.mkdir(parents=True, exist_ok=True)
-    for c in ["scheme_name", "category", "amc", "isin_growth_or_payout", "isin_reinvest"]:
+    for c in TEXT_COLS:
         df[c] = df[c].astype("object").astype("category")
     df = (df.drop_duplicates(["scheme_code", "date"], keep="last")
             .sort_values(["scheme_code", "date"]).reset_index(drop=True))
     df["scheme_code"] = df["scheme_code"].astype("int32")
     df["date"] = pd.to_datetime(df["date"])
-    for c in ["scheme_name", "category", "amc", "isin_growth_or_payout", "isin_reinvest"]:
-        df[c] = df[c].astype("category")
     table = pa.Table.from_pandas(df, preserve_index=False)
     path = NAV_DIR / f"nav_{year}.parquet"
     pq.write_table(table, path, compression="zstd", compression_level=19,
-                   use_dictionary=["scheme_name", "category", "amc",
-                                   "isin_growth_or_payout", "isin_reinvest"],
+                   use_dictionary=TEXT_COLS,
                    column_encoding={"nav": "BYTE_STREAM_SPLIT",
                                     "scheme_code": "DELTA_BINARY_PACKED"},
                    row_group_size=1_000_000)
     return path
+
+
+def get_month(start: dt.date, end: dt.date) -> pd.DataFrame:
+    part = parse(download(start, end))
+    if len(part):
+        return part
+    print("    all-AMC request came back empty; trying one fund house at a time", flush=True)
+    pieces = []
+    for mf in range(1, 101):
+        try:
+            p = parse(download(start, end, mf=mf, retries=2))
+        except Exception:
+            continue
+        if len(p):
+            pieces.append(p)
+        time.sleep(1)
+    if not pieces:
+        raise RuntimeError("no NAV rows returned for this month")
+    return pd.concat(pieces, ignore_index=True)
 
 
 def write_log(entries: list) -> None:
@@ -141,8 +188,8 @@ def fetch_year(year: int) -> None:
         end = min(end, today)
         print(f"  {year}-{month:02d}: downloading {start} to {end}", flush=True)
         try:
-            part = parse(download(start, end))
-            for c in ["scheme_name", "category", "amc", "isin_growth_or_payout", "isin_reinvest"]:
+            part = get_month(start, end)
+            for c in TEXT_COLS:
                 part[c] = part[c].astype("category")  # keeps memory low
             frames.append(part)
             log.append((year, month, len(part), "ok", run_at))
@@ -153,12 +200,11 @@ def fetch_year(year: int) -> None:
         time.sleep(3)  # be polite to AMFI
     write_log(log)
     if not frames:
-        print(f"No data for {year}; nothing saved.")
-        return
+        sys.exit(f"ERROR: no NAV data at all for {year}. Nothing saved.")
     path = save_year(pd.concat(frames, ignore_index=True), year)
     print(f"Saved {path.relative_to(ROOT)} ({path.stat().st_size / 1e6:.1f} MB)")
     if any(r[3] != "ok" for r in log):
-        print("WARNING: some months failed; see data/mutual-funds/nav/_fetch_log.csv")
+        sys.exit("ERROR: some months failed; see data/mutual-funds/nav/_fetch_log.csv")
 
 
 # ---------------------------------------------------------------- master
@@ -182,6 +228,8 @@ def build_master() -> None:
             "first_category": g["category"].first(),
             "category": g["category"].last(),
             "amc": g["amc"].last(),
+            "plan": g["plan"].last(),
+            "option": g["option"].last(),
             "isin_growth_or_payout": g["isin_growth_or_payout"].last(),
             "isin_reinvest": g["isin_reinvest"].last(),
         }))
@@ -192,6 +240,8 @@ def build_master() -> None:
         "amc": g["amc"].last(),
         "category_latest": g["category"].last(),
         "category_first": g["first_category"].first(),
+        "plan": g["plan"].last(),
+        "option": g["option"].last(),
         "isin_growth_or_payout": g["isin_growth_or_payout"].last(),
         "isin_reinvest": g["isin_reinvest"].last(),
         "first_nav_date": g["first_nav_date"].min().dt.date,
