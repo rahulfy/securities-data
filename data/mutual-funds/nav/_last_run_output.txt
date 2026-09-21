@@ -92,3 +92,28 @@ Saved data/mutual-funds/nav/nav_2008.parquet (4.4 MB)
   2009-12: downloading 2009-12-01 to 2009-12-31
     68,635 NAV rows
 Saved data/mutual-funds/nav/nav_2009.parquet (4.3 MB)
+  2010-01: downloading 2010-01-01 to 2010-01-31
+    64,929 NAV rows
+  2010-02: downloading 2010-02-01 to 2010-02-28
+    62,311 NAV rows
+  2010-03: downloading 2010-03-01 to 2010-03-31
+    69,434 NAV rows
+  2010-04: downloading 2010-04-01 to 2010-04-30
+    66,347 NAV rows
+  2010-05: downloading 2010-05-01 to 2010-05-31
+    68,522 NAV rows
+  2010-06: downloading 2010-06-01 to 2010-06-30
+    73,729 NAV rows
+  2010-07: downloading 2010-07-01 to 2010-07-31
+    73,555 NAV rows
+  2010-08: downloading 2010-08-01 to 2010-08-31
+    75,138 NAV rows
+  2010-09: downloading 2010-09-01 to 2010-09-30
+    73,037 NAV rows
+  2010-10: downloading 2010-10-01 to 2010-10-31
+    75,968 NAV rows
+  2010-11: downloading 2010-11-01 to 2010-11-30
+    73,805 NAV rows
+  2010-12: downloading 2010-12-01 to 2010-12-31
+    81,671 NAV rows
+Saved data/mutual-funds/nav/nav_2010.parquet (4.3 MB)
