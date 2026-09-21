@@ -57,7 +57,9 @@ def post(session, url, name, start, end, timeout=45):
     res = {"status": r.status_code, "secs": round(time.time() - t), "ctype": r.headers.get("content-type", ""),
            "head": r.text[:200].replace("\n", " ")}
     try:
-        rows = json.loads(r.json()["d"])
+        body = r.json()
+        # newer address returns the rows directly; older one wraps them in {"d": "..."}
+        rows = body if isinstance(body, list) else json.loads(body["d"])
         res.update(ok=True, rows=len(rows), first=rows[0] if rows else None, last=rows[-1] if rows else None)
     except Exception as e:
         res.update(ok=False, why=f"not the expected data format ({type(e).__name__})")
