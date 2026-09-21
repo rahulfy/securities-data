@@ -217,3 +217,28 @@ Saved data/mutual-funds/nav/nav_2013.parquet (9.6 MB)
   2014-12: downloading 2014-12-01 to 2014-12-31
     242,440 NAV rows
 Saved data/mutual-funds/nav/nav_2014.parquet (12.3 MB)
+  2015-01: downloading 2015-01-01 to 2015-01-31
+    232,015 NAV rows
+  2015-02: downloading 2015-02-01 to 2015-02-28
+    202,955 NAV rows
+  2015-03: downloading 2015-03-01 to 2015-03-31
+    232,590 NAV rows
+  2015-04: downloading 2015-04-01 to 2015-04-30
+    201,525 NAV rows
+  2015-05: downloading 2015-05-01 to 2015-05-31
+    210,972 NAV rows
+  2015-06: downloading 2015-06-01 to 2015-06-30
+    239,044 NAV rows
+  2015-07: downloading 2015-07-01 to 2015-07-31
+    251,136 NAV rows
+  2015-08: downloading 2015-08-01 to 2015-08-31
+    225,138 NAV rows
+  2015-09: downloading 2015-09-01 to 2015-09-30
+    222,663 NAV rows
+  2015-10: downloading 2015-10-01 to 2015-10-31
+    224,267 NAV rows
+  2015-11: downloading 2015-11-01 to 2015-11-30
+    205,019 NAV rows
+  2015-12: downloading 2015-12-01 to 2015-12-31
+    238,617 NAV rows
+Saved data/mutual-funds/nav/nav_2015.parquet (14.1 MB)
