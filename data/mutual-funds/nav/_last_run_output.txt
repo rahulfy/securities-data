@@ -342,3 +342,28 @@ Saved data/mutual-funds/nav/nav_2018.parquet (12.4 MB)
   2019-12: downloading 2019-12-01 to 2019-12-31
     218,287 NAV rows
 Saved data/mutual-funds/nav/nav_2019.parquet (13.1 MB)
+  2020-01: downloading 2020-01-01 to 2020-01-31
+    237,080 NAV rows
+  2020-02: downloading 2020-02-01 to 2020-02-29
+    194,065 NAV rows
+  2020-03: downloading 2020-03-01 to 2020-03-31
+    215,600 NAV rows
+  2020-04: downloading 2020-04-01 to 2020-04-30
+    183,289 NAV rows
+  2020-05: downloading 2020-05-01 to 2020-05-31
+    187,706 NAV rows
+  2020-06: downloading 2020-06-01 to 2020-06-30
+    216,818 NAV rows
+  2020-07: downloading 2020-07-01 to 2020-07-31
+    224,030 NAV rows
+  2020-08: downloading 2020-08-01 to 2020-08-31
+    203,744 NAV rows
+  2020-09: downloading 2020-09-01 to 2020-09-30
+    209,683 NAV rows
+  2020-10: downloading 2020-10-01 to 2020-10-31
+    195,294 NAV rows
+  2020-11: downloading 2020-11-01 to 2020-11-30
+    182,329 NAV rows
+  2020-12: downloading 2020-12-01 to 2020-12-31
+    208,092 NAV rows
+Saved data/mutual-funds/nav/nav_2020.parquet (12.9 MB)
