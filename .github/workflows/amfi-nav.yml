@@ -1,0 +1,57 @@
+name: AMFI NAV download
+
+on:
+  schedule:
+    - cron: "30 2 5 * *"   # 5th of every month, 08:00 IST
+  workflow_dispatch:
+    inputs:
+      start_year:
+        description: "First year to download (2006 = full history)"
+        default: "2006"
+      end_year:
+        description: "Last year to download (leave blank for current year)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: amfi-nav
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install libraries
+        run: pip install pandas pyarrow requests
+
+      - name: Download NAVs and save
+        env:
+          START_YEAR: ${{ github.event.inputs.start_year }}
+          END_YEAR: ${{ github.event.inputs.end_year }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          THIS_YEAR=$(date -u +%Y)
+          if [ -z "$START_YEAR" ]; then
+            # Scheduled monthly run: refresh this year (and last year in January)
+            START_YEAR=$THIS_YEAR
+            if [ "$(date -u +%m)" = "01" ]; then START_YEAR=$((THIS_YEAR - 1)); fi
+          fi
+          if [ -z "$END_YEAR" ]; then END_YEAR=$THIS_YEAR; fi
+          for Y in $(seq "$START_YEAR" "$END_YEAR"); do
+            echo "===== $Y ====="
+            python scripts/amfi_nav.py fetch --year "$Y"
+            python scripts/amfi_nav.py master
+            git add data
+            git commit -m "AMFI NAV $Y" || echo "No changes for $Y"
+            git pull --rebase
+            git push
+          done
