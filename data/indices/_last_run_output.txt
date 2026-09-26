@@ -1,295 +1,295 @@
 nifty_50: trying 'NIFTY 50'
-    6,773 days, 1999-06-30 to 2026-09-21
+    6,777 days, 1999-06-30 to 2026-09-25
 nifty_next_50: trying 'NIFTY NEXT 50'
-    5,931 days, 2002-11-08 to 2026-09-21
+    5,935 days, 2002-11-08 to 2026-09-25
 nifty_100: trying 'NIFTY 100'
-    5,895 days, 2003-01-01 to 2026-09-21
+    5,899 days, 2003-01-01 to 2026-09-25
 nifty_next_100: trying 'NIFTY NEXT 100'
-    3,960 days, 2010-10-01 to 2026-09-21
+    3,964 days, 2010-10-01 to 2026-09-25
 nifty_200: trying 'NIFTY 200'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_total_market: trying 'Nifty Total Market'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_500: trying 'NIFTY 500'
-    7,861 days, 1995-01-01 to 2026-09-21
+    7,865 days, 1995-01-01 to 2026-09-25
 nifty500_multicap_50_25_25: trying 'NIFTY500 MULTICAP 50:25:25'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_largemidsmall_equal_cap_weighted: trying 'Nifty500 LargeMidSmall Equal-Cap Weighted'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midcap_150: trying 'NIFTY MIDCAP 150'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midcap_50: trying 'NIFTY MIDCAP 50'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_midcap_select: trying 'Nifty Midcap Select'
-    5,198 days, 2005-10-03 to 2026-09-21
+    5,202 days, 2005-10-03 to 2026-09-25
 nifty_midcap_100: trying 'NIFTY Midcap 100'
-    5,895 days, 2003-01-01 to 2026-09-21
+    5,899 days, 2003-01-01 to 2026-09-25
 nifty_smallcap_500: trying 'NIFTY Smallcap 500'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_small_cap_250: trying 'NIFTY SMALL CAP 250'
 nifty_small_cap_250: trying 'NIFTY SMALLCAP 250'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_small_cap_50: trying 'NIFTY SMALL CAP 50'
 nifty_small_cap_50: trying 'NIFTY SMALLCAP 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_smallcap_100: trying 'NIFTY Smallcap 100'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_microcap_250: trying 'Nifty Microcap 250'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_largemidcap_250: trying 'NIFTY LargeMidcap 250'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midsmallcap_400: trying 'NIFTY MIDSMALLCAP 400'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midsmallcap400_50_50: trying 'NIFTY MIDSMALLCAP400 50:50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_india_fpi_150: trying 'Nifty India FPI 150'
-    984 days, 2022-10-03 to 2026-09-21
+    988 days, 2022-10-03 to 2026-09-25
 nifty_auto: trying 'NIFTY AUTO'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_bank: trying 'NIFTY BANK'
-    6,645 days, 2000-01-01 to 2026-09-21
+    6,649 days, 2000-01-01 to 2026-09-25
 nifty_capital_goods: trying 'NIFTY CAPITAL GOODS'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_cement: trying 'NIFTY CEMENT'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_chemicals: trying 'NIFTY CHEMICALS'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_commercial_transport_services: trying 'NIFTY COMMERCIAL & TRANSPORT SERVICES'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_construction: trying 'NIFTY CONSTRUCTION'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_consumer_durables: trying 'NIFTY CONSUMER DURABLES'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_consumer_services: trying 'NIFTY CONSUMER SERVICES'
-    1,547 days, 2020-07-01 to 2026-09-21
+    1,551 days, 2020-07-01 to 2026-09-25
 nifty_financial_services: trying 'NIFTY FINANCIAL SERVICES'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_financial_services_25_50: trying 'NIFTY FINANCIAL SERVICES 25/50'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_financial_services_ex_bank: trying 'NIFTY FINANCIAL SERVICES EX-BANK'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_fmcg: trying 'NIFTY FMCG'
-    7,642 days, 1996-01-01 to 2026-09-21
+    7,646 days, 1996-01-01 to 2026-09-25
 nifty_healthcare: trying 'Nifty HEALTHCARE'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_hospitals: trying 'NIFTY HOSPITALS'
-    1,358 days, 2021-03-31 to 2026-09-21
+    1,362 days, 2021-03-31 to 2026-09-25
 nifty_housing_finance: trying 'NIFTY HOUSING FINANCE'
-    2,101 days, 2018-04-02 to 2026-09-21
+    2,105 days, 2018-04-02 to 2026-09-25
 nifty_insurance: trying 'NIFTY INSURANCE'
-    1,733 days, 2019-09-27 to 2026-09-21
+    1,737 days, 2019-09-27 to 2026-09-25
 nifty_it: trying 'NIFTY IT'
-    6,774 days, 1999-06-30 to 2026-09-21
+    6,778 days, 1999-06-30 to 2026-09-25
 nifty_media: trying 'NIFTY MEDIA'
-    5,137 days, 2005-12-30 to 2026-09-21
+    5,141 days, 2005-12-30 to 2026-09-25
 nifty_metal: trying 'NIFTY METAL'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_nbfc: trying 'NIFTY NBFC'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_oil_and_gas_index: trying 'NIFTY OIL & GAS'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_pharma: trying 'NIFTY PHARMA'
-    6,394 days, 2001-01-01 to 2026-09-21
+    6,398 days, 2001-01-01 to 2026-09-25
 nifty_power: trying 'NIFTY POWER'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_private_bank: trying 'NIFTY PRIVATE BANK'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_psu_bank: trying 'NIFTY PSU BANK'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_realty: trying 'NIFTY REALTY'
-    4,887 days, 2006-12-29 to 2026-09-21
+    4,891 days, 2006-12-29 to 2026-09-25
 nifty_reits_realty: trying 'Nifty REITS & REALTY'
-    1,296 days, 2021-07-01 to 2026-09-21
+    1,300 days, 2021-07-01 to 2026-09-25
 nifty_retail: trying 'NIFTY RETAIL'
-    2,101 days, 2018-04-02 to 2026-09-21
+    2,105 days, 2018-04-02 to 2026-09-25
 nifty_telecommunications: trying 'NIFTY TELECOMMUNICATIONS'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_healthcare: trying 'Nifty500 Healthcare'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midsmall_financial_services: trying 'Nifty MidSmall Financial Services'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midsmall_healthcare: trying 'Nifty MidSmall Healthcare'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midsmall_it_telecom: trying 'Nifty MidSmall IT & Telecom'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_ai_catalysts: trying 'Nifty AI Catalysts'
-    554 days, 2024-06-28 to 2026-09-21
+    558 days, 2024-06-28 to 2026-09-25
 nifty_india_corporate_group_index_aditya_birla_group: trying 'NIFTY INDIA CORPORATE GROUP INDEX - ADITYA BIRLA GROUP'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_capital_markets: trying 'Nifty Capital Markets'
-    1,853 days, 2019-04-01 to 2026-09-21
+    1,857 days, 2019-04-01 to 2026-09-25
 nifty_commodities: trying 'NIFTY COMMODITIES'
-    5,640 days, 2004-01-01 to 2026-09-21
+    5,644 days, 2004-01-01 to 2026-09-25
 nifty_conglomerate_50: trying 'NIFTY CONGLOMERATE 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_core_housing: trying 'Nifty Core Housing'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_cpse: trying 'NIFTY CPSE'
-    4,391 days, 2009-01-01 to 2026-09-21
+    4,395 days, 2009-01-01 to 2026-09-25
 nifty_energy: trying 'NIFTY ENERGY'
-    6,394 days, 2001-01-01 to 2026-09-21
+    6,398 days, 2001-01-01 to 2026-09-25
 nifty_ev_new_age_automotive: trying 'Nifty EV & New Age Automotive'
-    2,101 days, 2018-04-02 to 2026-09-21
+    2,105 days, 2018-04-02 to 2026-09-25
 nifty_housing: trying 'Nifty Housing'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty100_esg: trying 'NIFTY100 ESG'
-    3,834 days, 2011-04-01 to 2026-09-21
+    3,838 days, 2011-04-01 to 2026-09-25
 nifty100_enhanced_esg: trying 'NIFTY100 Enhanced ESG'
-    3,834 days, 2011-04-01 to 2026-09-21
+    3,838 days, 2011-04-01 to 2026-09-25
 nifty100_esg_sector_leaders: trying 'Nifty100 ESG Sector Leaders'
-    3,148 days, 2014-01-01 to 2026-09-21
+    3,152 days, 2014-01-01 to 2026-09-25
 nifty_india_consumption: trying 'NIFTY INDIA CONSUMPTION'
-    5,135 days, 2006-01-02 to 2026-09-21
+    5,139 days, 2006-01-02 to 2026-09-25
 nifty_india_defence: trying 'Nifty India Defence'
-    2,101 days, 2018-04-02 to 2026-09-21
+    2,105 days, 2018-04-02 to 2026-09-25
 nifty_india_defence_equal_weight: trying 'Nifty India Defence Equal Weight'
-    2,101 days, 2018-04-02 to 2026-09-21
+    2,105 days, 2018-04-02 to 2026-09-25
 nifty_india_digital: trying 'Nifty India Digital'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_india_infrastructure_logistics: trying 'Nifty India Infrastructure & Logistics'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_india_internet: trying 'Nifty India Internet'
-    1,233 days, 2021-10-01 to 2026-09-21
+    1,237 days, 2021-10-01 to 2026-09-25
 nifty_india_manufacturing: trying 'Nifty India Manufacturing'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_india_new_age_consumption: trying 'NIFTY INDIA NEW AGE CONSUMPTION'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_india_railways_psu: trying 'Nifty India Railways PSU'
-    1,357 days, 2021-04-01 to 2026-09-21
+    1,361 days, 2021-04-01 to 2026-09-25
 nifty_india_tourism: trying 'NIFTY INDIA TOURISM'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_india_select_5_corporate_groups_maatr: trying 'NIFTY INDIA SELECT 5 CORPORATE GROUPS (MAATR)'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_infrastructure: trying 'NIFTY INFRASTRUCTURE'
-    5,641 days, 2004-01-01 to 2026-09-21
+    5,645 days, 2004-01-01 to 2026-09-25
 nifty_india_corporate_group_index_mahindra_group: trying 'NIFTY INDIA CORPORATE GROUP INDEX - MAHINDRA GROUP'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_ipo: trying 'NIFTY IPO'
-    2,409 days, 2017-01-02 to 2026-09-21
+    2,413 days, 2017-01-02 to 2026-09-25
 nifty_midcap_liquid_15: trying 'NIFTY MIDCAP LIQUID 15'
-    4,391 days, 2009-01-01 to 2026-09-21
+    4,395 days, 2009-01-01 to 2026-09-25
 nifty_midsmall_india_consumption: trying 'Nifty MidSmall India Consumption'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_mnc: trying 'NIFTY MNC'
-    7,860 days, 1995-01-02 to 2026-09-21
+    7,864 days, 1995-01-02 to 2026-09-25
 nifty_mobility: trying 'Nifty Mobility'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_pse: trying 'NIFTY PSE'
-    6,644 days, 2000-01-03 to 2026-09-21
+    6,648 days, 2000-01-03 to 2026-09-25
 nifty_reits_invits: trying 'Nifty REITs & InvITs'
-    1,793 days, 2019-07-01 to 2026-09-21
+    1,797 days, 2019-07-01 to 2026-09-25
 nifty_reits_invits_90_10: trying 'Nifty REITs & InvITs 90:10'
-    1,357 days, 2021-04-01 to 2026-09-21
+    1,361 days, 2021-04-01 to 2026-09-25
 nifty_rural: trying 'Nifty Rural'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_non_cyclical_consumer_index: trying 'Nifty Non-Cyclical Consumer Index'
 nifty_non_cyclical_consumer_index: trying 'NIFTY NON-CYCLICAL CONSUMER INDEX'
 nifty_non_cyclical_consumer_index: trying 'NIFTY NON-CYCLICAL CONSUMER'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_services_sector: trying 'NIFTY SERVICES SECTOR'
-    6,795 days, 1999-06-01 to 2026-09-21
+    6,799 days, 1999-06-01 to 2026-09-25
 nifty_shariah_25: trying 'NIFTY SHARIAH 25'
-    4,391 days, 2009-01-01 to 2026-09-21
+    4,395 days, 2009-01-01 to 2026-09-25
 nifty_small_finance_banks_microfinance_institutions: trying 'Nifty Small Finance Banks & Microfinance Institutions'
-    1,357 days, 2021-03-31 to 2026-09-21
+    1,361 days, 2021-03-31 to 2026-09-25
 nifty_sugar_ethanol: trying 'Nifty Sugar & Ethanol'
-    1,357 days, 2021-03-31 to 2026-09-21
+    1,361 days, 2021-03-31 to 2026-09-25
 nifty_india_corporate_group_index_tata_group: trying 'NIFTY INDIA CORPORATE GROUP INDEX - TATA GROUP'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_india_corporate_group_index_tata_group_25_cap: trying 'NIFTY INDIA CORPORATE GROUP INDEX - TATA GROUP 25% CAP'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_transportation_logistics: trying 'Nifty Transportation & Logistics'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty100_liquid_15: trying 'NIFTY100 LIQUID 15'
-    3,280 days, 2013-06-20 to 2026-09-21
+    3,284 days, 2013-06-20 to 2026-09-25
 nifty50_shariah: trying 'NIFTY50 SHARIAH'
-    4,887 days, 2006-12-29 to 2026-09-21
+    4,891 days, 2006-12-29 to 2026-09-25
 nifty500_shariah: trying 'NIFTY500 SHARIAH'
-    4,887 days, 2006-12-29 to 2026-09-21
+    4,891 days, 2006-12-29 to 2026-09-25
 nifty500_multicap_india_manufacturing_50_30_20: trying 'NIFTY500 MULTICAP INDIA MANUFACTURING 50:30:20'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_multicap_infrastructure_50_30_20: trying 'NIFTY500 MULTICAP INFRASTRUCTURE 50:30:20'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_ahimsa: trying 'Nifty500 Ahimsa'
-    2,594 days, 2016-04-01 to 2026-09-21
+    2,598 days, 2016-04-01 to 2026-09-25
 nifty_sme_emerge: trying 'NIFTY SME EMERGE'
-    2,431 days, 2016-12-01 to 2026-09-21
+    2,435 days, 2016-12-01 to 2026-09-25
 nifty_waves: trying 'NIFTY Waves'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_100_equal_weight: trying 'NIFTY 100 EQUAL WEIGHT'
 nifty_100_equal_weight: trying 'NIFTY100 EQUAL WEIGHT'
-    5,895 days, 2003-01-01 to 2026-09-21
+    5,899 days, 2003-01-01 to 2026-09-25
 nifty_100_low_volatility_30: trying 'NIFTY 100 LOW VOLATILITY 30'
 nifty_100_low_volatility_30: trying 'NIFTY100 LOW VOLATILITY 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty200_momentum_30: trying 'NIFTY200 MOMENTUM 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty200_alpha_30: trying 'NIFTY200 ALPHA 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty100_alpha_30: trying 'NIFTY100 ALPHA 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_alpha_50: trying 'NIFTY ALPHA 50'
-    5,642 days, 2003-12-31 to 2026-09-21
+    5,646 days, 2003-12-31 to 2026-09-25
 nifty_alpha_low_volatility_30: trying 'NIFTY ALPHA LOW-VOLATILITY 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_alpha_quality_low_volatility_30: trying 'NIFTY ALPHA QUALITY LOW-VOLATILITY 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_alpha_quality_value_low_volatility_30: trying 'NIFTY ALPHA QUALITY VALUE LOW-VOLATILITY 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_dividend_opportunities_50: trying 'NIFTY DIVIDEND OPPORTUNITIES 50'
-    4,700 days, 2007-10-01 to 2026-09-21
+    4,704 days, 2007-10-01 to 2026-09-25
 nifty_growth_sectors_15: trying 'NIFTY GROWTH SECTORS 15'
-    4,391 days, 2009-01-01 to 2026-09-21
+    4,395 days, 2009-01-01 to 2026-09-25
 nifty_high_beta_50: trying 'NIFTY HIGH BETA 50'
-    5,642 days, 2003-12-31 to 2026-09-21
+    5,646 days, 2003-12-31 to 2026-09-25
 nifty_low_volatility_50: trying 'NIFTY LOW VOLATILITY 50'
-    5,642 days, 2003-12-31 to 2026-09-21
+    5,646 days, 2003-12-31 to 2026-09-25
 nifty_top_10_equal_weight: trying 'NIFTY TOP 10 EQUAL WEIGHT'
-    5,096 days, 2006-03-02 to 2026-09-21
+    5,100 days, 2006-03-02 to 2026-09-25
 nifty_top_15_equal_weight: trying 'NIFTY TOP 15 EQUAL WEIGHT'
-    5,096 days, 2006-03-02 to 2026-09-21
+    5,100 days, 2006-03-02 to 2026-09-25
 nifty_top_20_equal_weight: trying 'NIFTY TOP 20 EQUAL WEIGHT'
-    5,096 days, 2006-03-02 to 2026-09-21
+    5,100 days, 2006-03-02 to 2026-09-25
 nifty100_quality_30: trying 'NIFTY100 QUALITY 30'
-    4,209 days, 2009-10-01 to 2026-09-21
+    4,213 days, 2009-10-01 to 2026-09-25
 nifty_midcap150_momentum_50: trying 'NIFTY Midcap150 Momentum 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_flexicap_quality_30: trying 'Nifty500 Flexicap Quality 30'
-    4,209 days, 2009-10-01 to 2026-09-21
+    4,213 days, 2009-10-01 to 2026-09-25
 nifty500_growth_50: trying 'Nifty500 Growth 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_low_volatility_50: trying 'NIFTY500 LOW VOLATILITY 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_momentum_50: trying 'NIFTY500 MOMENTUM 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_quality_50: trying 'NIFTY500 QUALITY 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_multifactor_mqvlv_50: trying 'NIFTY500 MULTIFACTOR MQVLv 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midcap150_quality_50: trying 'NIFTY Midcap150 Quality 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_smallcap250_quality_50: trying 'Nifty Smallcap250 Quality 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_total_market_momentum_quality_50: trying 'Nifty Total Market Momentum Quality 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_multicap_momentum_quality_50: trying 'NIFTY500 MULTICAP MOMENTUM QUALITY 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_midsmallcap400_momentum_quality_100: trying 'Nifty MidSmallcap400 Momentum Quality 100'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_smallcap250_momentum_quality_100: trying 'Nifty Smallcap250 Momentum Quality 100'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty_quality_low_volatility_30: trying 'NIFTY QUALITY LOW-VOLATILITY 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty50_equal_weight: trying 'NIFTY50 EQUAL WEIGHT'
-    7,694 days, 1995-11-03 to 2026-09-21
+    7,698 days, 1995-11-03 to 2026-09-25
 nifty50_value_20: trying 'NIFTY50 VALUE 20'
-    4,391 days, 2009-01-01 to 2026-09-21
+    4,395 days, 2009-01-01 to 2026-09-25
 nifty200_value_30: trying 'Nifty200 Value 30'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_value_50: trying 'NIFTY500 VALUE 50'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty500_equal_weight: trying 'NIFTY500 EQUAL WEIGHT'
-    5,326 days, 2005-04-01 to 2026-09-21
+    5,330 days, 2005-04-01 to 2026-09-25
 nifty200_quality_30: trying 'NIFTY200 Quality 30'
-    5,326 days, 2005-04-01 to 2026-09-21
-Saved data/indices/tri_daily.parquet: 697,491 rows, 144 indices
+    5,330 days, 2005-04-01 to 2026-09-25
+Saved data/indices/tri_daily.parquet: 698,067 rows, 144 indices
