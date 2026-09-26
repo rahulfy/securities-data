@@ -1,513 +1,56 @@
-  2006-04: downloading 2006-04-01 to 2006-04-30
-    32,762 NAV rows
-  2006-05: downloading 2006-05-01 to 2006-05-31
-    41,076 NAV rows
-  2006-06: downloading 2006-06-01 to 2006-06-30
-    40,756 NAV rows
-  2006-07: downloading 2006-07-01 to 2006-07-31
-    39,541 NAV rows
-  2006-08: downloading 2006-08-01 to 2006-08-31
-    42,204 NAV rows
-  2006-09: downloading 2006-09-01 to 2006-09-30
-    41,075 NAV rows
-  2006-10: downloading 2006-10-01 to 2006-10-31
-    38,700 NAV rows
-  2006-11: downloading 2006-11-01 to 2006-11-30
-    44,902 NAV rows
-  2006-12: downloading 2006-12-01 to 2006-12-31
-    42,164 NAV rows
-Saved data/mutual-funds/nav/nav_2006.parquet (1.8 MB)
-  2007-01: downloading 2007-01-01 to 2007-01-31
-    44,149 NAV rows
-  2007-02: downloading 2007-02-01 to 2007-02-28
-    42,066 NAV rows
-  2007-03: downloading 2007-03-01 to 2007-03-31
-    48,941 NAV rows
-  2007-04: downloading 2007-04-01 to 2007-04-30
-    49,654 NAV rows
-  2007-05: downloading 2007-05-01 to 2007-05-31
-    54,540 NAV rows
-  2007-06: downloading 2007-06-01 to 2007-06-30
-    55,793 NAV rows
-  2007-07: downloading 2007-07-01 to 2007-07-31
-    59,248 NAV rows
-  2007-08: downloading 2007-08-01 to 2007-08-31
-    59,954 NAV rows
-  2007-09: downloading 2007-09-01 to 2007-09-30
-    57,898 NAV rows
-  2007-10: downloading 2007-10-01 to 2007-10-31
-    65,933 NAV rows
-  2007-11: downloading 2007-11-01 to 2007-11-30
-    63,981 NAV rows
-  2007-12: downloading 2007-12-01 to 2007-12-31
-    60,908 NAV rows
-Saved data/mutual-funds/nav/nav_2007.parquet (3.2 MB)
-  2008-01: downloading 2008-01-01 to 2008-01-31
-    74,475 NAV rows
-  2008-02: downloading 2008-02-01 to 2008-02-29
-    69,798 NAV rows
-  2008-03: downloading 2008-03-01 to 2008-03-31
-    64,154 NAV rows
-  2008-04: downloading 2008-04-01 to 2008-04-30
-    72,224 NAV rows
-  2008-05: downloading 2008-05-01 to 2008-05-31
-    72,725 NAV rows
-  2008-06: downloading 2008-06-01 to 2008-06-30
-    77,083 NAV rows
-  2008-07: downloading 2008-07-01 to 2008-07-31
-    85,903 NAV rows
-  2008-08: downloading 2008-08-01 to 2008-08-31
-    77,867 NAV rows
-  2008-09: downloading 2008-09-01 to 2008-09-30
-    85,735 NAV rows
-  2008-10: downloading 2008-10-01 to 2008-10-31
-    81,884 NAV rows
-  2008-11: downloading 2008-11-01 to 2008-11-30
-    79,400 NAV rows
-  2008-12: downloading 2008-12-01 to 2008-12-31
-    90,664 NAV rows
-Saved data/mutual-funds/nav/nav_2008.parquet (4.4 MB)
-  2009-01: downloading 2009-01-01 to 2009-01-31
-    84,205 NAV rows
-  2009-02: downloading 2009-02-01 to 2009-02-28
-    76,134 NAV rows
-  2009-03: downloading 2009-03-01 to 2009-03-31
-    79,378 NAV rows
-  2009-04: downloading 2009-04-01 to 2009-04-30
-    66,993 NAV rows
-  2009-05: downloading 2009-05-01 to 2009-05-31
-    74,515 NAV rows
-  2009-06: downloading 2009-06-01 to 2009-06-30
-    79,641 NAV rows
-  2009-07: downloading 2009-07-01 to 2009-07-31
-    79,242 NAV rows
-  2009-08: downloading 2009-08-01 to 2009-08-31
-    71,949 NAV rows
-  2009-09: downloading 2009-09-01 to 2009-09-30
-    66,658 NAV rows
-  2009-10: downloading 2009-10-01 to 2009-10-31
-    64,071 NAV rows
-  2009-11: downloading 2009-11-01 to 2009-11-30
-    66,228 NAV rows
-  2009-12: downloading 2009-12-01 to 2009-12-31
-    68,635 NAV rows
-Saved data/mutual-funds/nav/nav_2009.parquet (4.3 MB)
-  2010-01: downloading 2010-01-01 to 2010-01-31
-    64,929 NAV rows
-  2010-02: downloading 2010-02-01 to 2010-02-28
-    62,311 NAV rows
-  2010-03: downloading 2010-03-01 to 2010-03-31
-    69,434 NAV rows
-  2010-04: downloading 2010-04-01 to 2010-04-30
-    66,347 NAV rows
-  2010-05: downloading 2010-05-01 to 2010-05-31
-    68,522 NAV rows
-  2010-06: downloading 2010-06-01 to 2010-06-30
-    73,729 NAV rows
-  2010-07: downloading 2010-07-01 to 2010-07-31
-    73,555 NAV rows
-  2010-08: downloading 2010-08-01 to 2010-08-31
-    75,138 NAV rows
-  2010-09: downloading 2010-09-01 to 2010-09-30
-    73,037 NAV rows
-  2010-10: downloading 2010-10-01 to 2010-10-31
-    75,968 NAV rows
-  2010-11: downloading 2010-11-01 to 2010-11-30
-    73,805 NAV rows
-  2010-12: downloading 2010-12-01 to 2010-12-31
-    81,671 NAV rows
-Saved data/mutual-funds/nav/nav_2010.parquet (4.3 MB)
-  2011-01: downloading 2011-01-01 to 2011-01-31
-    76,332 NAV rows
-  2011-02: downloading 2011-02-01 to 2011-02-28
-    74,852 NAV rows
-  2011-03: downloading 2011-03-01 to 2011-03-31
-    89,010 NAV rows
-  2011-04: downloading 2011-04-01 to 2011-04-30
-    70,133 NAV rows
-  2011-05: downloading 2011-05-01 to 2011-05-31
-    88,026 NAV rows
-  2011-06: downloading 2011-06-01 to 2011-06-30
-    91,445 NAV rows
-  2011-07: downloading 2011-07-01 to 2011-07-31
-    87,058 NAV rows
-  2011-08: downloading 2011-08-01 to 2011-08-31
-    87,583 NAV rows
-  2011-09: downloading 2011-09-01 to 2011-09-30
-    87,967 NAV rows
-  2011-10: downloading 2011-10-01 to 2011-10-31
-    79,466 NAV rows
-  2011-11: downloading 2011-11-01 to 2011-11-30
-    88,118 NAV rows
-  2011-12: downloading 2011-12-01 to 2011-12-31
-    94,265 NAV rows
-Saved data/mutual-funds/nav/nav_2011.parquet (5.1 MB)
-  2012-01: downloading 2012-01-01 to 2012-01-31
-    96,378 NAV rows
-  2012-02: downloading 2012-02-01 to 2012-02-29
-    89,883 NAV rows
-  2012-03: downloading 2012-03-01 to 2012-03-31
-    96,492 NAV rows
-  2012-04: downloading 2012-04-01 to 2012-04-30
-    88,320 NAV rows
-  2012-05: downloading 2012-05-01 to 2012-05-31
-    105,575 NAV rows
-  2012-06: downloading 2012-06-01 to 2012-06-30
-    101,028 NAV rows
-  2012-07: downloading 2012-07-01 to 2012-07-31
-    102,571 NAV rows
-  2012-08: downloading 2012-08-01 to 2012-08-31
-    101,067 NAV rows
-  2012-09: downloading 2012-09-01 to 2012-09-30
-    92,466 NAV rows
-  2012-10: downloading 2012-10-01 to 2012-10-31
-    97,813 NAV rows
-  2012-11: downloading 2012-11-01 to 2012-11-30
-    91,664 NAV rows
-  2012-12: downloading 2012-12-01 to 2012-12-31
-    95,572 NAV rows
-Saved data/mutual-funds/nav/nav_2012.parquet (5.7 MB)
-  2013-01: downloading 2013-01-01 to 2013-01-31
-    143,861 NAV rows
-  2013-02: downloading 2013-02-01 to 2013-02-28
-    130,847 NAV rows
-  2013-03: downloading 2013-03-01 to 2013-03-31
-    136,291 NAV rows
-  2013-04: downloading 2013-04-01 to 2013-04-30
-    137,805 NAV rows
-  2013-05: downloading 2013-05-01 to 2013-05-31
-    161,248 NAV rows
-  2013-06: downloading 2013-06-01 to 2013-06-30
-    146,732 NAV rows
-  2013-07: downloading 2013-07-01 to 2013-07-31
-    163,704 NAV rows
-  2013-08: downloading 2013-08-01 to 2013-08-31
-    154,530 NAV rows
-  2013-09: downloading 2013-09-01 to 2013-09-30
-    165,722 NAV rows
-  2013-10: downloading 2013-10-01 to 2013-10-31
-    183,058 NAV rows
-  2013-11: downloading 2013-11-01 to 2013-11-30
-    168,878 NAV rows
-  2013-12: downloading 2013-12-01 to 2013-12-31
-    190,829 NAV rows
-Saved data/mutual-funds/nav/nav_2013.parquet (9.6 MB)
-  2014-01: downloading 2014-01-01 to 2014-01-31
-    206,009 NAV rows
-  2014-02: downloading 2014-02-01 to 2014-02-28
-    178,062 NAV rows
-  2014-03: downloading 2014-03-01 to 2014-03-31
-    199,877 NAV rows
-  2014-04: downloading 2014-04-01 to 2014-04-30
-    183,013 NAV rows
-  2014-05: downloading 2014-05-01 to 2014-05-31
-    215,538 NAV rows
-  2014-06: downloading 2014-06-01 to 2014-06-30
-    226,899 NAV rows
-  2014-07: downloading 2014-07-01 to 2014-07-31
-    232,299 NAV rows
-  2014-08: downloading 2014-08-01 to 2014-08-31
-    200,825 NAV rows
-  2014-09: downloading 2014-09-01 to 2014-09-30
-    239,890 NAV rows
-  2014-10: downloading 2014-10-01 to 2014-10-31
-    189,521 NAV rows
-  2014-11: downloading 2014-11-01 to 2014-11-30
-    200,355 NAV rows
-  2014-12: downloading 2014-12-01 to 2014-12-31
-    242,440 NAV rows
-Saved data/mutual-funds/nav/nav_2014.parquet (12.3 MB)
-  2015-01: downloading 2015-01-01 to 2015-01-31
-    232,015 NAV rows
-  2015-02: downloading 2015-02-01 to 2015-02-28
-    202,955 NAV rows
-  2015-03: downloading 2015-03-01 to 2015-03-31
-    232,590 NAV rows
-  2015-04: downloading 2015-04-01 to 2015-04-30
-    201,525 NAV rows
-  2015-05: downloading 2015-05-01 to 2015-05-31
-    210,972 NAV rows
-  2015-06: downloading 2015-06-01 to 2015-06-30
-    239,044 NAV rows
-  2015-07: downloading 2015-07-01 to 2015-07-31
-    251,136 NAV rows
-  2015-08: downloading 2015-08-01 to 2015-08-31
-    225,138 NAV rows
-  2015-09: downloading 2015-09-01 to 2015-09-30
-    222,663 NAV rows
-  2015-10: downloading 2015-10-01 to 2015-10-31
-    224,267 NAV rows
-  2015-11: downloading 2015-11-01 to 2015-11-30
-    205,019 NAV rows
-  2015-12: downloading 2015-12-01 to 2015-12-31
-    238,617 NAV rows
-Saved data/mutual-funds/nav/nav_2015.parquet (14.1 MB)
-  2016-01: downloading 2016-01-01 to 2016-01-31
-    228,630 NAV rows
-  2016-02: downloading 2016-02-01 to 2016-02-29
-    230,556 NAV rows
-  2016-03: downloading 2016-03-01 to 2016-03-31
-    229,849 NAV rows
-  2016-04: downloading 2016-04-01 to 2016-04-30
-    194,603 NAV rows
-  2016-05: downloading 2016-05-01 to 2016-05-31
-    254,020 NAV rows
-  2016-06: downloading 2016-06-01 to 2016-06-30
-    253,776 NAV rows
-  2016-07: downloading 2016-07-01 to 2016-07-31
-    234,908 NAV rows
-  2016-08: downloading 2016-08-01 to 2016-08-31
-    247,485 NAV rows
-  2016-09: downloading 2016-09-01 to 2016-09-30
-    231,217 NAV rows
-  2016-10: downloading 2016-10-01 to 2016-10-31
-    207,975 NAV rows
-  2016-11: downloading 2016-11-01 to 2016-11-30
-    234,965 NAV rows
-  2016-12: downloading 2016-12-01 to 2016-12-31
-    235,861 NAV rows
-Saved data/mutual-funds/nav/nav_2016.parquet (14.7 MB)
-  2017-01: downloading 2017-01-01 to 2017-01-31
-    232,508 NAV rows
-  2017-02: downloading 2017-02-01 to 2017-02-28
-    201,660 NAV rows
-  2017-03: downloading 2017-03-01 to 2017-03-31
-    234,702 NAV rows
-  2017-04: downloading 2017-04-01 to 2017-04-30
-    199,770 NAV rows
-  2017-05: downloading 2017-05-01 to 2017-05-31
-    228,289 NAV rows
-  2017-06: downloading 2017-06-01 to 2017-06-30
-    221,671 NAV rows
-  2017-07: downloading 2017-07-01 to 2017-07-31
-    220,205 NAV rows
-  2017-08: downloading 2017-08-01 to 2017-08-31
-    210,681 NAV rows
-  2017-09: downloading 2017-09-01 to 2017-09-30
-    212,750 NAV rows
-  2017-10: downloading 2017-10-01 to 2017-10-31
-    191,860 NAV rows
-  2017-11: downloading 2017-11-01 to 2017-11-30
-    215,006 NAV rows
-  2017-12: downloading 2017-12-01 to 2017-12-31
-    189,984 NAV rows
-Saved data/mutual-funds/nav/nav_2017.parquet (13.3 MB)
-  2018-01: downloading 2018-01-01 to 2018-01-31
-    214,030 NAV rows
-  2018-02: downloading 2018-02-01 to 2018-02-28
-    180,911 NAV rows
-  2018-03: downloading 2018-03-01 to 2018-03-31
-    192,675 NAV rows
-  2018-04: downloading 2018-04-01 to 2018-04-30
-    196,664 NAV rows
-  2018-05: downloading 2018-05-01 to 2018-05-31
-    213,412 NAV rows
-  2018-06: downloading 2018-06-01 to 2018-06-30
-    202,932 NAV rows
-  2018-07: downloading 2018-07-01 to 2018-07-31
-    214,345 NAV rows
-  2018-08: downloading 2018-08-01 to 2018-08-31
-    200,772 NAV rows
-  2018-09: downloading 2018-09-01 to 2018-09-30
-    181,753 NAV rows
-  2018-10: downloading 2018-10-01 to 2018-10-31
-    212,048 NAV rows
-  2018-11: downloading 2018-11-01 to 2018-11-30
-    187,818 NAV rows
-  2018-12: downloading 2018-12-01 to 2018-12-31
-    205,849 NAV rows
-Saved data/mutual-funds/nav/nav_2018.parquet (12.4 MB)
-  2019-01: downloading 2019-01-01 to 2019-01-31
-    236,226 NAV rows
-  2019-02: downloading 2019-02-01 to 2019-02-28
-    202,892 NAV rows
-  2019-03: downloading 2019-03-01 to 2019-03-31
-    206,233 NAV rows
-  2019-04: downloading 2019-04-01 to 2019-04-30
-    197,661 NAV rows
-  2019-05: downloading 2019-05-01 to 2019-05-31
-    230,774 NAV rows
-  2019-06: downloading 2019-06-01 to 2019-06-30
-    201,300 NAV rows
-  2019-07: downloading 2019-07-01 to 2019-07-31
-    239,219 NAV rows
-  2019-08: downloading 2019-08-01 to 2019-08-31
-    209,253 NAV rows
-  2019-09: downloading 2019-09-01 to 2019-09-30
-    198,657 NAV rows
-  2019-10: downloading 2019-10-01 to 2019-10-31
-    198,903 NAV rows
-  2019-11: downloading 2019-11-01 to 2019-11-30
-    207,176 NAV rows
-  2019-12: downloading 2019-12-01 to 2019-12-31
-    218,287 NAV rows
-Saved data/mutual-funds/nav/nav_2019.parquet (13.1 MB)
-  2020-01: downloading 2020-01-01 to 2020-01-31
-    237,080 NAV rows
-  2020-02: downloading 2020-02-01 to 2020-02-29
-    194,065 NAV rows
-  2020-03: downloading 2020-03-01 to 2020-03-31
-    215,600 NAV rows
-  2020-04: downloading 2020-04-01 to 2020-04-30
-    183,289 NAV rows
-  2020-05: downloading 2020-05-01 to 2020-05-31
-    187,706 NAV rows
-  2020-06: downloading 2020-06-01 to 2020-06-30
-    216,818 NAV rows
-  2020-07: downloading 2020-07-01 to 2020-07-31
-    224,030 NAV rows
-  2020-08: downloading 2020-08-01 to 2020-08-31
-    203,744 NAV rows
-  2020-09: downloading 2020-09-01 to 2020-09-30
-    209,683 NAV rows
-  2020-10: downloading 2020-10-01 to 2020-10-31
-    195,294 NAV rows
-  2020-11: downloading 2020-11-01 to 2020-11-30
-    182,329 NAV rows
-  2020-12: downloading 2020-12-01 to 2020-12-31
-    208,092 NAV rows
-Saved data/mutual-funds/nav/nav_2020.parquet (12.9 MB)
-  2021-01: downloading 2021-01-01 to 2021-01-31
-    191,560 NAV rows
-  2021-02: downloading 2021-02-01 to 2021-02-28
-    183,519 NAV rows
-  2021-03: downloading 2021-03-01 to 2021-03-31
-    199,195 NAV rows
-  2021-04: downloading 2021-04-01 to 2021-04-30
-    168,423 NAV rows
-  2021-05: downloading 2021-05-01 to 2021-05-31
-    176,038 NAV rows
-  2021-06: downloading 2021-06-01 to 2021-06-30
-    190,612 NAV rows
-  2021-07: downloading 2021-07-01 to 2021-07-31
-    179,168 NAV rows
-  2021-08: downloading 2021-08-01 to 2021-08-31
-    172,232 NAV rows
-  2021-09: downloading 2021-09-01 to 2021-09-30
-    172,242 NAV rows
-  2021-10: downloading 2021-10-01 to 2021-10-31
-    159,913 NAV rows
-  2021-11: downloading 2021-11-01 to 2021-11-30
-    154,962 NAV rows
-  2021-12: downloading 2021-12-01 to 2021-12-31
-    184,326 NAV rows
-Saved data/mutual-funds/nav/nav_2021.parquet (11.2 MB)
-  2022-01: downloading 2022-01-01 to 2022-01-31
-    162,203 NAV rows
-  2022-02: downloading 2022-02-01 to 2022-02-28
-    155,311 NAV rows
-  2022-03: downloading 2022-03-01 to 2022-03-31
-    169,794 NAV rows
-  2022-04: downloading 2022-04-01 to 2022-04-30
-    146,744 NAV rows
-  2022-05: downloading 2022-05-01 to 2022-05-31
-    152,470 NAV rows
-  2022-06: downloading 2022-06-01 to 2022-06-30
-    155,841 NAV rows
-  2022-07: downloading 2022-07-01 to 2022-07-31
-    148,964 NAV rows
-  2022-08: downloading 2022-08-01 to 2022-08-31
-    140,474 NAV rows
-  2022-09: downloading 2022-09-01 to 2022-09-30
-    154,775 NAV rows
-  2022-10: downloading 2022-10-01 to 2022-10-31
-    131,397 NAV rows
-  2022-11: downloading 2022-11-01 to 2022-11-30
-    149,797 NAV rows
-  2022-12: downloading 2022-12-01 to 2022-12-31
-    156,919 NAV rows
-Saved data/mutual-funds/nav/nav_2022.parquet (9.8 MB)
-  2023-01: downloading 2023-01-01 to 2023-01-31
-    152,167 NAV rows
-  2023-02: downloading 2023-02-01 to 2023-02-28
-    145,414 NAV rows
-  2023-03: downloading 2023-03-01 to 2023-03-31
-    153,474 NAV rows
-  2023-04: downloading 2023-04-01 to 2023-04-30
-    131,340 NAV rows
-  2023-05: downloading 2023-05-01 to 2023-05-31
-    160,069 NAV rows
-  2023-06: downloading 2023-06-01 to 2023-06-30
-    155,265 NAV rows
-  2023-07: downloading 2023-07-01 to 2023-07-31
-    156,019 NAV rows
-  2023-08: downloading 2023-08-01 to 2023-08-31
-    159,119 NAV rows
-  2023-09: downloading 2023-09-01 to 2023-09-30
-    143,037 NAV rows
-  2023-10: downloading 2023-10-01 to 2023-10-31
-    149,815 NAV rows
-  2023-11: downloading 2023-11-01 to 2023-11-30
-    149,613 NAV rows
-  2023-12: downloading 2023-12-01 to 2023-12-31
-    151,194 NAV rows
-Saved data/mutual-funds/nav/nav_2023.parquet (9.6 MB)
-  2024-01: downloading 2024-01-01 to 2024-01-31
-    158,544 NAV rows
-  2024-02: downloading 2024-02-01 to 2024-02-29
-    155,583 NAV rows
-  2024-03: downloading 2024-03-01 to 2024-03-31
-    148,031 NAV rows
-  2024-04: downloading 2024-04-01 to 2024-04-30
-    148,837 NAV rows
-  2024-05: downloading 2024-05-01 to 2024-05-31
-    159,634 NAV rows
-  2024-06: downloading 2024-06-01 to 2024-06-30
-    150,563 NAV rows
-  2024-07: downloading 2024-07-01 to 2024-07-31
-    170,587 NAV rows
-  2024-08: downloading 2024-08-01 to 2024-08-31
-    165,960 NAV rows
-  2024-09: downloading 2024-09-01 to 2024-09-30
-    162,318 NAV rows
-  2024-10: downloading 2024-10-01 to 2024-10-31
-    174,335 NAV rows
-  2024-11: downloading 2024-11-01 to 2024-11-30
-    148,037 NAV rows
-  2024-12: downloading 2024-12-01 to 2024-12-31
-    170,447 NAV rows
-Saved data/mutual-funds/nav/nav_2024.parquet (10.2 MB)
-  2025-01: downloading 2025-01-01 to 2025-01-31
-    185,861 NAV rows
-  2025-02: downloading 2025-02-01 to 2025-02-28
-    153,754 NAV rows
-  2025-03: downloading 2025-03-01 to 2025-03-31
-    167,452 NAV rows
-  2025-04: downloading 2025-04-01 to 2025-04-30
-    156,643 NAV rows
-  2025-05: downloading 2025-05-01 to 2025-05-31
-    172,882 NAV rows
-  2025-06: downloading 2025-06-01 to 2025-06-30
-    175,608 NAV rows
-  2025-07: downloading 2025-07-01 to 2025-07-31
-    191,886 NAV rows
-  2025-08: downloading 2025-08-01 to 2025-08-31
-    165,129 NAV rows
-  2025-09: downloading 2025-09-01 to 2025-09-30
-    183,965 NAV rows
-  2025-10: downloading 2025-10-01 to 2025-10-31
-    173,449 NAV rows
-  2025-11: downloading 2025-11-01 to 2025-11-30
-    166,909 NAV rows
-  2025-12: downloading 2025-12-01 to 2025-12-31
-    190,971 NAV rows
-Saved data/mutual-funds/nav/nav_2025.parquet (11.3 MB)
   2026-01: downloading 2026-01-01 to 2026-01-31
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
+    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
     177,857 NAV rows
   2026-02: downloading 2026-02-01 to 2026-02-28
-    173,905 NAV rows
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
+    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
+    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
+    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
+    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
+    FAILED: gave up on {'frmdt': '01-Feb-2026', 'todt': '28-Feb-2026'}: AMFI did not return a NAV file (got a web page instead)
   2026-03: downloading 2026-03-01 to 2026-03-31
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
+    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
+    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
+    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
     176,721 NAV rows
   2026-04: downloading 2026-04-01 to 2026-04-30
-    174,400 NAV rows
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
+    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
+    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
+    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
+    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
+    FAILED: gave up on {'frmdt': '01-Apr-2026', 'todt': '30-Apr-2026'}: AMFI did not return a NAV file (got a web page instead)
   2026-05: downloading 2026-05-01 to 2026-05-31
-    169,831 NAV rows
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
+    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
+    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
+    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
+    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
+    FAILED: gave up on {'frmdt': '01-May-2026', 'todt': '31-May-2026'}: AMFI did not return a NAV file (got a web page instead)
   2026-06: downloading 2026-06-01 to 2026-06-30
-    183,637 NAV rows
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
+    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
+    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
+    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
+    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
+    FAILED: gave up on {'frmdt': '01-Jun-2026', 'todt': '30-Jun-2026'}: AMFI did not return a NAV file (got a web page instead)
   2026-07: downloading 2026-07-01 to 2026-07-31
-    199,894 NAV rows
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
+    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
+    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
+    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
+    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
+    FAILED: gave up on {'frmdt': '01-Jul-2026', 'todt': '31-Jul-2026'}: AMFI did not return a NAV file (got a web page instead)
   2026-08: downloading 2026-08-01 to 2026-08-31
-    182,825 NAV rows
-  2026-09: downloading 2026-09-01 to 2026-09-21
-    116,194 NAV rows
-Saved data/mutual-funds/nav/nav_2026.parquet (8.5 MB)
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
+    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
+    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
+    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
+    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
+    FAILED: gave up on {'frmdt': '01-Aug-2026', 'todt': '31-Aug-2026'}: AMFI did not return a NAV file (got a web page instead)
+  2026-09: downloading 2026-09-01 to 2026-09-26
+    159,272 NAV rows
+Saved data/mutual-funds/nav/nav_2026.parquet (2.9 MB)
+ERROR: some months failed; see data/mutual-funds/nav/_fetch_log.csv

@@ -236,12 +236,12 @@ year,month,rows,status,run_at_utc
 2025,10,173449,ok,2026-09-21 13:42
 2025,11,166909,ok,2026-09-21 13:42
 2025,12,190971,ok,2026-09-21 13:42
-2026,1,177857,ok,2026-09-21 13:46
-2026,2,173905,ok,2026-09-21 13:46
-2026,3,176721,ok,2026-09-21 13:46
-2026,4,174400,ok,2026-09-21 13:46
-2026,5,169831,ok,2026-09-21 13:46
-2026,6,183637,ok,2026-09-21 13:46
-2026,7,199894,ok,2026-09-21 13:46
-2026,8,182825,ok,2026-09-21 13:46
-2026,9,116194,ok,2026-09-21 13:46
+2026,1,177857,ok,2026-09-26 07:53
+2026,2,0,"FAILED: gave up on {'frmdt': '01-Feb-2026', 'todt': '28-Feb-2026'}: AMFI did not return a NAV file (got a web page instead)",2026-09-26 07:53
+2026,3,176721,ok,2026-09-26 07:53
+2026,4,0,"FAILED: gave up on {'frmdt': '01-Apr-2026', 'todt': '30-Apr-2026'}: AMFI did not return a NAV file (got a web page instead)",2026-09-26 07:53
+2026,5,0,"FAILED: gave up on {'frmdt': '01-May-2026', 'todt': '31-May-2026'}: AMFI did not return a NAV file (got a web page instead)",2026-09-26 07:53
+2026,6,0,"FAILED: gave up on {'frmdt': '01-Jun-2026', 'todt': '30-Jun-2026'}: AMFI did not return a NAV file (got a web page instead)",2026-09-26 07:53
+2026,7,0,"FAILED: gave up on {'frmdt': '01-Jul-2026', 'todt': '31-Jul-2026'}: AMFI did not return a NAV file (got a web page instead)",2026-09-26 07:53
+2026,8,0,"FAILED: gave up on {'frmdt': '01-Aug-2026', 'todt': '31-Aug-2026'}: AMFI did not return a NAV file (got a web page instead)",2026-09-26 07:53
+2026,9,159272,ok,2026-09-26 07:53
