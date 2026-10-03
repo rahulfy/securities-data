@@ -1,56 +1,21 @@
   2026-01: downloading 2026-01-01 to 2026-01-31
-    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
-    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
     177,857 NAV rows
   2026-02: downloading 2026-02-01 to 2026-02-28
-    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
-    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
-    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
-    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
-    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
-    FAILED: gave up on {'frmdt': '01-Feb-2026', 'todt': '28-Feb-2026'}: AMFI did not return a NAV file (got a web page instead)
+    173,905 NAV rows
   2026-03: downloading 2026-03-01 to 2026-03-31
-    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
-    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
-    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
-    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
     176,721 NAV rows
   2026-04: downloading 2026-04-01 to 2026-04-30
-    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
-    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
-    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
-    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
-    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
-    FAILED: gave up on {'frmdt': '01-Apr-2026', 'todt': '30-Apr-2026'}: AMFI did not return a NAV file (got a web page instead)
+    174,400 NAV rows
   2026-05: downloading 2026-05-01 to 2026-05-31
-    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
-    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
-    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
-    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
-    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
-    FAILED: gave up on {'frmdt': '01-May-2026', 'todt': '31-May-2026'}: AMFI did not return a NAV file (got a web page instead)
+    169,831 NAV rows
   2026-06: downloading 2026-06-01 to 2026-06-30
-    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
-    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
-    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
-    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
-    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
-    FAILED: gave up on {'frmdt': '01-Jun-2026', 'todt': '30-Jun-2026'}: AMFI did not return a NAV file (got a web page instead)
+    183,637 NAV rows
   2026-07: downloading 2026-07-01 to 2026-07-31
-    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
-    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
-    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
-    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
-    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
-    FAILED: gave up on {'frmdt': '01-Jul-2026', 'todt': '31-Jul-2026'}: AMFI did not return a NAV file (got a web page instead)
+    199,894 NAV rows
   2026-08: downloading 2026-08-01 to 2026-08-31
-    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
-    attempt 2 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 40s
-    attempt 3 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 60s
-    attempt 4 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 80s
-    attempt 5 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 100s
-    FAILED: gave up on {'frmdt': '01-Aug-2026', 'todt': '31-Aug-2026'}: AMFI did not return a NAV file (got a web page instead)
-  2026-09: downloading 2026-09-01 to 2026-09-26
-    159,272 NAV rows
-Saved data/mutual-funds/nav/nav_2026.parquet (2.9 MB)
-ERROR: some months failed; see data/mutual-funds/nav/_fetch_log.csv
+    182,825 NAV rows
+  2026-09: downloading 2026-09-01 to 2026-09-30
+    186,554 NAV rows
+  2026-10: downloading 2026-10-01 to 2026-10-03
+    9,161 NAV rows
+Saved data/mutual-funds/nav/nav_2026.parquet (9.0 MB)
