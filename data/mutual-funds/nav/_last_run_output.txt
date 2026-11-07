@@ -17,5 +17,7 @@
   2026-09: downloading 2026-09-01 to 2026-09-30
     186,554 NAV rows
   2026-10: downloading 2026-10-01 to 2026-10-31
-    179,410 NAV rows
-Saved data/mutual-funds/nav/nav_2026.parquet (9.9 MB)
+    181,249 NAV rows
+  2026-11: downloading 2026-11-01 to 2026-11-07
+    43,634 NAV rows
+Saved data/mutual-funds/nav/nav_2026.parquet (10.2 MB)
