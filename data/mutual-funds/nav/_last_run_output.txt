@@ -11,6 +11,7 @@
   2026-06: downloading 2026-06-01 to 2026-06-30
     183,637 NAV rows
   2026-07: downloading 2026-07-01 to 2026-07-31
+    attempt 1 failed (AMFI did not return a NAV file (got a web page instead)); retrying in 20s
     199,894 NAV rows
   2026-08: downloading 2026-08-01 to 2026-08-31
     182,825 NAV rows
@@ -18,6 +19,6 @@
     186,554 NAV rows
   2026-10: downloading 2026-10-01 to 2026-10-31
     181,249 NAV rows
-  2026-11: downloading 2026-11-01 to 2026-11-07
-    43,634 NAV rows
-Saved data/mutual-funds/nav/nav_2026.parquet (10.2 MB)
+  2026-11: downloading 2026-11-01 to 2026-11-14
+    80,924 NAV rows
+Saved data/mutual-funds/nav/nav_2026.parquet (10.3 MB)
